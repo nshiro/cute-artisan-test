@@ -1,0 +1,69 @@
+{
+  "name": "cute-artisan-test",
+  "displayName": "Cute Artisan Test",
+  "description": "Run Laravel Artisan tests quickly and easily",
+  "version": "0.1.0",
+  "publisher": "nshiro",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Testing"
+  ],
+  "keywords": [
+    "laravel",
+    "artisan",
+    "phpunit",
+    "test",
+    "pest"
+  ],
+  "license": "MIT",
+  "icon": "img/icon.png",
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cute-artisan-test.run",
+        "title": "Cute Artisan Test: run"
+      },
+      {
+        "command": "cute-artisan-test.run-previous",
+        "title": "Cute Artisan Test: run previous"
+      }
+    ],
+    "configuration": {
+      "title": "Cute Artisan Test",
+      "properties": {
+        "cute-artisan-test.testCommand": {
+          "type": "string",
+          "description": "If this path is not set, it will fall back to `php artisan test'. If `vendor/bin/sail` is found, it will fall back to `sail artisan test`."
+        },
+        "cute-artisan-test.terminalFocus.enabled": {
+          "type": "boolean",
+          "default": false,
+          "description": "Determines whether the terminal is focused after the test."
+        },
+        "cute-artisan-test.phpunitAndPestInMixedMode.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "When PHPUnit and Pest are used at the same time, the contents of the file under test will be used to infer which file it is."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.89.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}

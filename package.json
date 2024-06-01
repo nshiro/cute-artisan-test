@@ -2,7 +2,7 @@
   "name": "cute-artisan-test",
   "displayName": "Cute Artisan Test",
   "description": "Run Laravel Artisan tests quickly and easily",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "publisher": "nshiro",
   "engines": {
     "vscode": "^1.89.0"

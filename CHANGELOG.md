@@ -1,6 +1,10 @@
 # Change Log
 
-## [0.2.1] - 2024-06-01
+## [0.3.1] - 2024-06-01
+
+- Fix CHANGELOG
+
+## [0.2.0] - 2024-06-01
 
 - The auto detection feature of Laravel Sail has been abandoned..
 

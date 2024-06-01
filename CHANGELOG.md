@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.3.2] - 2024-06-01
+
+- Fix config description
+
 ## [0.3.1] - 2024-06-01
 
 - Fix CHANGELOG

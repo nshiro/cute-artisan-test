@@ -37,7 +37,7 @@
       "properties": {
         "cute-artisan-test.testCommand": {
           "type": "string",
-          "description": "If this path is not set, it will fall back to `php artisan test'. If `vendor/bin/sail` is found, it will fall back to `sail artisan test`."
+          "description": "If this path is not set, it will fall back to `php artisan test'."
         },
         "cute-artisan-test.terminalFocus.enabled": {
           "type": "boolean",

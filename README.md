@@ -49,7 +49,7 @@ Example of a `keybindings.json' file
         "key": "cmd+c cmd+p",
         "command": "cute-artisan-test.run-previous"
     }
-]
+}
 ```
 
 ## Minor details.
@@ -64,6 +64,10 @@ Example of a `keybindings.json' file
 
 ## FYI
 In the terminal, you can `Ctrl/Cmd + click` messages like `tests/Feature/ExampleTest.php:37` to open the corresponding file in the editor.
+
+
+## Contribution guidelines
+Please read it here. [Contribution guidelines](.github/CONTRIBUTING.md)
 
 
 **Have fun!**

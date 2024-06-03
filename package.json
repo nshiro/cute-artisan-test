@@ -19,6 +19,10 @@
   ],
   "license": "MIT",
   "icon": "img/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nshiro/cute-artisan-test"
+  },
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
